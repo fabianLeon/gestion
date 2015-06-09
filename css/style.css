@@ -1,0 +1,16 @@
+/* 
+    Document   : style
+    Created on : 25/05/2015, 09:49:00 PM
+    Author     : Fabian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+     background: url(http://subtlepatterns.com/patterns/subtle_white_feathers.png) repeat scroll 0% 0% #ffffff;
+}
+
