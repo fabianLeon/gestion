@@ -19,10 +19,12 @@
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Tasa de Interes</h4>
+                            <h4><i class="fa fa-fw fa-check"></i>CLUSTER</h4>
                         </div>
                         <div class="panel-body">
-                            <p style="text-align: justify">La tasa de interés (o tipo de interés) es el precio del dinero o pago estipulado, por encima del valor depositado, que un inversionista debe recibir, por unidad de tiempo determinado, del deudor, a raíz de haber usado su dinero durante ese tiempo. Con frecuencia se le llama "el precio del dinero" en el mercado financiero, ya que refleja cuánto paga un deudor a un acreedor por usar su dinero durante un periodo.</p>
+                            <p style="text-align: justify">Un clúster industrial (o simplemente clúster) es un concepto nacido a principios de la década de los 90 como herramienta para el análisis de aquellos factores que permiten a una industria específica incorporar nuevos eslabones en su cadena productiva, los factores que determinan el uso de nuevas tecnologías en sus procesos, y los factores determinantes de la generación de actividades de aglomeración.1 Estas ideas provienen del trabajo pionero de Michael Porter y colaboradores,n 1 quienes analizan la adquisición —por parte de concentraciones territoriales de empresas— de ventajas comparativas en ciertos sectores del comercio manufacturero mundial.2
+
+En este contexto, Porter define «clúster» como concentraciones de empresas e instituciones interconectadas en un campo particular para la competencia,3 pudiéndose observar en el mundo gran variedad de clústeres en industrias como la automotriz, tecnologías de la información, turismo, servicios de negocios, minería, petróleo y gas, productos agrícolas, transporte, productos manufactureros y logística, entre otros.</p>
                             <a href="#" class="btn btn-default">Learn More</a>
                         </div>
                     </div>
@@ -30,24 +32,30 @@
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-gift"></i> Anualidades</h4>
+                            <h4><i class="fa fa-fw fa-gift"></i> Historia</h4>
                         </div>
                         <div class="panel-body">
-                            <p style="text-align: justify">Una anualidad es una sucesión de pagos, depósitos o retiros, generalmente iguales, que se realizan en períodos regulares de tiempo, con interés compuesto. El término anualidad no implica que las rentas tengan que ser anuales, sino que se da a cualquier secuencia de pagos, iguales en todos los casos, a intervalos regulares de tiempo, e independientemente que tales pagos sean anuales, semestrales, trimestrales o mensuales.
+                            <p style="text-align: justify">El origen del término y del uso de este tipo de tecnología es desconocido pero se puede considerar que comenzó a finales de los años cincuenta y principios de los sesenta.
 
-                                Cuando en un país hay relativa estabilidad económica, es frecuente que se efectúen operaciones mercantiles a través de pagos periódicos, sea a interés simple o compuesto, como en las anualidades.</p>
-                            <a href="http://es.wikipedia.org/wiki/Anualidad" target="_blank"class="btn btn-default">Leer mas</a>
+La base formal de la ingeniería informática cree que la metodología de proveer un medio de hacer trabajos paralelos de cualquier tipo fue inventado posiblemente por Gene Amdahl de IBM, que en 1967 publicó lo que ha llegado a ser considerado como el "white paper" inicial de procesamiento paralelo: la Ley de Amdahl que describe matemáticamente el aceleramiento que se puede esperar paralelizando cualquier otra serie de tareas realizadas en una arquitectura paralela.
+
+Este artículo define la base para la ingeniería de la computación tanto multiprocesador y computación clúster, en donde el principal papel diferenciador es si las comunicaciones interprocesador cuentan con el apoyo «dentro» de la computadora (por ejemplo, en una configuración personalizada para el bus o la red de las comunicaciones internas) o «fuera» del ordenador en una red «commodity».</p>
+                            <a href="http://suseos.weebly.com/uploads/1/8/7/0/18707470/23-_cluster.pdf" target="_blank"class="btn btn-default">Leer mas</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-compass"></i> Amortización de cuota constante</h4>
+                            <h4><i class="fa fa-fw fa-compass"></i> HADOOP</h4>
                         </div>
                         <div class="panel-body">
-                            <p style="text-align: justify">amortización de préstamos. En ella se paga siempre la misma cuota. El dinero se distribuye por periodos entre los intereses y capital amortizado. Es decir, aunque la cuota siempre es la misma, los intereses se calculan sobre el valor pendiente a amortizar; así pues, la parte de su abono que va a los intereses se va reduciendo en proporción a la amortización del capital, ya que el capital pendiente de amortización será menor. El resultado de éste sistema es que durante la primera fase, el abono va dirigido principalmente a los intereses, pero a medida que se van pagando cuotas, la parte de las mismas que corresponde a capital amortizado aumenta, lo cual deriva en una disminución gradual de los intereses.</p>
-                            <a href="http://www.finanzaspracticas.com.co/finanzaspersonales/entienda/que_es/8.php" target="_blank" class="btn btn-default">Leer mas</a>
+                            <p style="text-align: justify">Hadoop consiste básicamente en el Hadoop Common, que proporciona acceso a los sistemas de archivos soportados por Hadoop. El paquete de software The Hadoop Common contiene los archivos .jar y los scripts necesarios para hacer correr Hadoop. El paquete también proporciona código fuente, documentación, y una sección de contribución que incluye proyectos de la Comunidad Hadoop.
+
+Una funcionalidad clave es que para la programación efectiva de trabajo, cada sistema de archivos debe conocer y proporcionar su ubicación: el nombre del rack (más precisamente, del switch) donde está el nodo trabajador. Las aplicaciones Hadoop pueden usar esta información para ejecutar trabajo en el nodo donde están los datos y, en su defecto, en el mismo rack/switch, reduciendo así el tráfico de red troncal (backbone traffic). El sistema de archivos HDFS usa esto cuando replica datos, para intentar conservar copias diferentes de los datos en racks diferentes. El objetivo es reducir el impacto de un corte de energía de rack o de fallo de interruptor de modo que incluso si se producen estos eventos, los datos todavía puedan ser legibles.8
+
+Un clúster típico Hadoop incluye un nodo maestro y múltiples nodos esclavo</p>
+                            <a href="http://wiki.apache.org/hadoop/" target="_blank" class="btn btn-default">Leer mas</a>
                         </div>
                     </div>
                 </div>

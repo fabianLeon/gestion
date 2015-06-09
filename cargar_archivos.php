@@ -1,6 +1,6 @@
 <?php
 function subirArchivo($soporte, $ruta_d) {
-    if($soporte['archivo']['name']){
+    if($soporte['name']){
         $ruta = str_replace("\\", '/', $ruta_d);
         $carpetas = explode("/", substr($ruta, 0, strlen($ruta) - 1));
         $ruta_destino = '';
@@ -18,8 +18,9 @@ function subirArchivo($soporte, $ruta_d) {
             chmod($ruta_destino, 0777);
         }
         //echo $soporte['archivo']['tmp_name']."<br>";
-        if(!(move_uploaded_file($soporte['archivo']['tmp_name'],utf8_decode(strtolower($ruta).$soporte['archivo']['name'])))) {
-            $r = "<br>No ha sido posible copiar el archivo ";
+        if(!(move_uploaded_file($soporte['tmp_name'],utf8_decode(strtolower($ruta).$soporte['name'])))) {
+            
+            $r = $soporte['tmp_name']."<br>".utf8_decode(strtolower($ruta).$soporte['name'])."<br>No ha sido posible copiar el archivo ";
         } else {
             $r = "archivo copiado <br>";
         }
@@ -35,8 +36,13 @@ if ($_FILES['archivo']['error'] > 0) {
     echo "Nombre: " . $_FILES['archivo']['name'] . "<br>";
     echo "Tipo: " . $_FILES['archivo']['type'] . "<br>";
     echo "Tam: " . ($_FILES['archivo']['size'] / 1024) . "kB<br>";
-    echo "Carpeta temporal: " . $_FILES['archivo']['tmp_name'] . "<br>";
-    echo $directorio . $_FILES['archivo']['name'];
-    echo subirArchivo($_FILES, $directorio);
+    $fichero = $_FILES['archivo']['tmp_name'];
+    $nuevoFichero = $directorio . $_FILES['archivo']['name'];
+    if (copy($fichero, $nuevoFichero)){
+        echo "archivo copiado con exito<br>";
+    }else{
+        echo "archivo no copiado<br>";
+    }
+    //echo subirArchivo($_FILES['archivo'], $directorio);
 }
 ?>
